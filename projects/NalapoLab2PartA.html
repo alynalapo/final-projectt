@@ -1,0 +1,183 @@
+<h1>Part C</h1>
+
+<dl> 
+    <dt><b> Define a Table </b> <dt>
+    <dd> To define a table, one must use the table element, defined by a td and /td tag, holding the content of the table cell. tr and /tr tags represent table rows. To make table header cells, use th and /th tags. theader and tfooter are used in conjunction with one another to group header content and group footer content, respectfully. <dd>
+    </dl>
+<dl> 
+    <dt><b> Colspan and Rowspan  </b><dt>
+    <dd>These specify how many columns or rows a cell should span in a table. <dd>
+    </dl>
+<dl> 
+    <dt> <b>Cell Spacing and Padding </b><dt>
+    <dd>Cellspacing defines the space between cells, whereas cell padding specifies the space betwene the border of a table cell and its contents.
+ <dd>
+    </dl>
+<dl>
+<dt><b> Define Table Borders and its widths using CSS </b> <dt>
+    <dd> To define table borders, use the border element thru: </dl>
+    table, th, td
+    border: 1px solid
+
+</dl>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href= "NalapoLab2PartB.css" media="">
+<title>Page Title</title>
+<body>
+
+<h2>Schedule for Alyanna A168104488 -- Fall 2022 </h2>
+
+<p>This is my schedule</p>
+
+<table> 
+  <caption>Alyanna's Schedule</caption>
+  <link href="styles.css" rel="stylesheet" media="all" />
+  <table border= "2">
+ 
+  <tr>
+    <th class="center">Time</th>
+    <th class="center">Sunday</th>
+    <th class="center"> Monday</th>
+	<th class="center">Tuesday</th>
+	<th class="center">Wednesday</th>
+	<th class="center">Thursday</th>
+	<th class="center">Friday</th>
+	<th>Saturday</th>
+  </tr>
+  <tr>
+    <th>9-10AM </th>
+    <td>Wake Up</td>
+    <td>LWTR 101</td>
+    <td>Wake up</td>
+    <td>LWTR 8A</td>
+    <td>Wake up</td>
+    <td>Wake up</td>
+    <td>Rollerskating</td>
+  </tr>
+  <tr>
+    <th>10-11AM </th>
+    <td>Breakfast</td>
+    <td><a href="https://library.ucsd.edu/hours/index.html">Go to Geisel</a></td>
+    <td><a href="https://library.ucsd.edu/hours/index.html">Go to Geisel</a></td>
+    <td><a href="https://library.ucsd.edu/hours/index.html">Go to Geisel</a></td>
+	<td><a href="https://library.ucsd.edu/hours/index.html">Go to Geisel</a></td>
+    <td>LWTR 8A</td>
+    <td><img src="https://assets3.thrillist.com/v1/image/3071259/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70" alt="Rollerskating" width="200" height="120"></td>
+  </tr>
+ <tr>
+    <th>11AM-12PM </th>
+    <td>Groceries</td>
+    <td><a href="https://library.ucsd.edu/hours/index.html">Go to Geisel</a></td>
+    <td><a href="https://library.ucsd.edu/hours/index.html">Go to Geisel</a></td>
+    <td><a href="https://library.ucsd.edu/hours/index.html">Go to Geisel</a></td>
+    <td><a href="https://library.ucsd.edu/hours/index.html">Go to Geisel</a></td>
+    <td></td>
+    <td></td>
+  </tr>
+ <tr>
+    <th>12-1PM </th>
+    <td></td>
+    <td>COGS 3</td>
+    <td>LIGN 101</td>
+    <td></td>
+    <td>LIGN 101</td>
+    <td>LIGN 101 Discussion</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>1-2PM </th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>CHEM 6A Discussion</td>
+    <td></td>
+  </tr>
+   <tr>
+    <th>2-3PM </th>
+    <td><a href="https://www.ucsandiegobookstore.com/technology/computers">Work</a></td>
+    <td>CHEM 6A</td>
+    <td><a href="https://www.ucsandiegobookstore.com/technology/computers">Work</a></td>
+    <td>CHEM 6A</td>
+     <td><a href="https://www.ucsandiegobookstore.com/technology/computers">Work</a></td>
+    <td>CHEM 6A</td>
+    <td></td>
+  </tr>
+   <tr>
+    <th>3-4PM </th>
+    <td></td>
+    <td>Work</td>
+    <td>Work</td>
+    <td>Work</td>
+    <td>Work</td>
+    <td>Work</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>5-6PM </th>
+    <td></td>
+    <td>Work</td>
+    <td>Work</td>
+    <td>Work</td>
+    <td>Work</td>
+    <td>Work</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>7-8PM </th>
+    <td></td>
+    <td></td>
+    <td>COGS 3</td>
+    <td></td>
+    <td>COGS 3</td>
+    <td></td>
+    <td></td>
+  </tr>
+    <tr>
+    <th>8-9PM </th>
+    <td></td>
+    <td>Homework</td>
+    <td>Homework</td>
+    <td>Homework</td>
+    <td>Homework</td>
+    <td>Homework</td>
+    <td></td>
+  </tr>
+    <tr>
+    <th>9-10PM </th>
+    <td>Homework</td>
+    <td>Homework</td>
+    <td>Homework</td>
+    <td>Homework</td>
+    <td>Homework</td>
+    <td>Homework</td>
+    <td></td>
+  </tr>
+   <tr>
+    <th>11PM-12AM </th>
+    <td></td>
+    <td>Homework</td>
+    <td>Homework</td>
+    <td>Homework</td>
+    <td>Homework</td>
+    <td>Homework</td>
+    <td>sleep</td>
+  </tr>
+   <tr>
+    <th>1-2AM </th>
+   <td><a href="https://open.spotify.com/playlist/2jC1p33r5Y2OhilEs9vr6X?si=2313ef9f9fa94dba">simp</a></td>
+   <td><a href="https://open.spotify.com/playlist/59F1mzSLQMPr2n3rUfQkAd?si=e9c348d529644ab5">simp</a></td>
+     <td><a href="https://open.spotify.com/playlist/2jC1p33r5Y2OhilEs9vr6X?si=2313ef9f9fa94dba">simp</a></td>
+     <td><a href="https://open.spotify.com/playlist/59F1mzSLQMPr2n3rUfQkAd?si=e9c348d529644ab5">simp</a></td>
+     <td><a href="https://open.spotify.com/playlist/2jC1p33r5Y2OhilEs9vr6X?si=2313ef9f9fa94dba">simp</a></td>
+     <td><a href="https://open.spotify.com/playlist/59F1mzSLQMPr2n3rUfQkAd?si=e9c348d529644ab5">simp</a></td>
+     <td><a href="https://open.spotify.com/playlist/2jC1p33r5Y2OhilEs9vr6X?si=2313ef9f9fa94dba">simp</a></td>
+  	</tr>
+	</table>
+
+</body>
+</html>
